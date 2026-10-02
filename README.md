@@ -41,7 +41,7 @@ The project includes a Power BI dashboard designed to summarize the main Netflix
 - Top 10 content genres
 - Interactive filters for content analysis
 
-![Netflix Power BI Dashboard](assets/netflix_dashboard.png)
+![Netflix Power BI Dashboard](assets/dashboard-overview.jpeg)
 
 ### Power BI File
 
