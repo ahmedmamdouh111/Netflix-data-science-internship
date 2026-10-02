@@ -377,3 +377,91 @@ Business Questions & Metrics
 Business Insights
    ↓
 Power BI Dashboard
+```
+
+---
+
+# Repository Structure
+
+```text
+Netflix-data-science-internship/
+│
+├── Dataset.csv
+├── netflix_cleaned.csv
+├── Netflix_Data_Science_Internship.ipynb
+├── Netflix Portfolio.pbix
+├── README.md
+│
+└── assets/
+    └── dashboard-overview.jpeg
+```
+
+| File | Description |
+| --- | --- |
+| `Netflix_Data_Science_Internship.ipynb` | Complete Data Science project notebook containing Tasks 1–6 |
+| `Dataset.csv` | Original Netflix dataset |
+| `netflix_cleaned.csv` | Cleaned dataset generated during preprocessing |
+| `Netflix Portfolio.pbix` | Power BI dashboard file |
+| `assets/dashboard-overview.jpeg` | Dashboard preview image |
+| `README.md` | Complete project documentation |
+
+---
+
+# Run the Project
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ahmedmamdouh111/Netflix-data-science-internship/blob/main/Netflix_Data_Science_Internship.ipynb)
+
+1. Open the notebook using the Colab badge above.
+2. Connect to a Python runtime.
+3. Select **Runtime → Run all**.
+
+The notebook loads the original dataset directly from the GitHub repository.
+
+The Power BI dashboard can be downloaded from this repository and opened in Power BI Desktop for interactive exploration.
+
+---
+
+# Project Limitations
+
+The dataset primarily describes the Netflix content catalog and does not contain user-level behavioral information.
+
+It does not include:
+
+- Views
+- Watch time
+- User engagement
+- Revenue
+- Subscriber behavior
+- Content acquisition cost
+
+Therefore, catalog composition alone should not be used to make strong conclusions about audience preferences or content profitability.
+
+Additional limitations include:
+
+- 2021 represents a partial year.
+- Titles may belong to multiple genres.
+- Country values represent the geographic information available in the dataset and should not automatically be interpreted as complete production ownership.
+- Forecasting results are trend-based estimates rather than exact future predictions.
+
+---
+
+# Project Status
+
+## Completed
+
+- [x] Task 1 — Data Cleaning & Preprocessing
+- [x] Task 2 — Exploratory Data Analysis
+- [x] Task 3 — Recommendation System
+- [x] Task 4 — Time Series Forecasting
+- [x] Task 5 — Machine Learning Classification
+- [x] Task 6 — Business Insights & Power BI Dashboard
+
+**Project Complete**
+
+---
+
+# Author
+
+**Ahmed Mamdouh**
+
+[GitHub](https://github.com/ahmedmamdouh111) · [LinkedIn](https://linkedin.com/in/ahmed-mamdouh831)
